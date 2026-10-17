@@ -1,0 +1,31 @@
+# 1. API Keys & Bí mật (BẮT BUỘC - Không bao giờ đẩy lên Git)
+.env
+.env.*
+!.env.example
+
+# 2. Vector Database & Cache dữ liệu
+chroma_db/
+*.chroma
+
+# 3. Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# 4. Môi trường ảo (Virtual Environments)
+venv/
+.venv/
+env/
+ENV/
+
+# 5. Cấu hình IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 6. Log & Tạm thời
+*.log
+scratch/
