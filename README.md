@@ -109,18 +109,4 @@ Dạ theo quy định của bệnh viện:
 - Chuyên khoa nên cân nhắc: Khoa Tai Mũi Họng hoặc Khoa Hô Hấp.
 ```
 
----
 
-## 🗺️ Lộ Trình Nâng Cấp (V2 Roadmap)
-
-- [ ] **Safety Service**: Tách riêng module phát hiện dấu hiệu cấp cứu (Red Flags) ưu tiên chuyển hướng khẩn cấp 115.
-- [ ] **Summary Service**: Tích lũy và cập nhật hồ sơ bệnh nhân qua từng lượt hỏi đáp (Slot filling).
-- [ ] **Doctor Recommendation & Booking**: Tích hợp danh mục bác sĩ mẫu (`doctor_catalog.py`) và luồng đặt hẹn lịch khám.
-- [ ] **Giao diện Web**: Tích hợp giao diện trực quan với Streamlit.
-- [ ] **Evaluation**: Đánh giá định lượng (Classification Accuracy & RAG Precision).
-
----
-
-## 👨‍💻 Tác Giả
-- **Quốc Huy** - [@quochuy04-dev](https://github.com/quochuy04-dev)
-- Môn học: Các mô hình ngôn ngữ lớn (LLMs)
