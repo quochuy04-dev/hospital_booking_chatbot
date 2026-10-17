@@ -1,6 +1,19 @@
-langchain
-openai
-chromadb
-pypdf
-tiktoken
-python-dotenv
+# LangChain Ecosystem
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+langchain-chroma>=0.1.0
+langchain-text-splitters>=0.2.0
+
+# Vector Database & Embeddings
+chromadb>=0.4.0
+tiktoken>=0.7.0
+
+# LLM Providers & Validation
+openai>=1.30.0
+pydantic>=2.7.0
+
+# Data Loading & Utilities
+pypdf>=4.0.0
+python-dotenv>=1.0.0
