@@ -7,25 +7,30 @@
 chroma_db/
 *.chroma
 
-# 3. Python Cache & Bytecode
+# 3. Cơ sở dữ liệu cục bộ (SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# 4. Python Cache & Bytecode
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .pytest_cache/
 
-# 4. Môi trường ảo (Virtual Environments)
+# 5. Môi trường ảo (Virtual Environments)
 venv/
 .venv/
 env/
 ENV/
 
-# 5. Cấu hình IDE & Editor
+# 6. Cấu hình IDE & Editor
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# 6. Log & Tạm thời
+# 7. Log & Tạm thời
 *.log
 scratch/

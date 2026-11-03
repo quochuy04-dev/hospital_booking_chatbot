@@ -1,18 +1,27 @@
-# LangChain Ecosystem
+# LangChain & LangGraph Ecosystem
 langchain>=0.2.0
 langchain-core>=0.2.0
 langchain-community>=0.2.0
 langchain-openai>=0.1.0
 langchain-chroma>=0.1.0
 langchain-text-splitters>=0.2.0
+langgraph>=0.1.0
 
-# Vector Database & Embeddings
+# Vector Database & Embeddings & Search
 chromadb>=0.4.0
 tiktoken>=0.7.0
+rank-bm25>=0.2.2
 
 # LLM Providers & Validation
 openai>=1.30.0
 pydantic>=2.7.0
+
+# Relational Database (MySQL)
+pymysql>=1.1.0
+sqlalchemy>=2.0.0
+
+# Web UI
+streamlit>=1.30.0
 
 # Data Loading & Utilities
 pypdf>=4.0.0
